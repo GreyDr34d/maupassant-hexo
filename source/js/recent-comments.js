@@ -2,7 +2,7 @@
   let serverURL = document.getElementById("recent-comment").getAttribute("serverURL")
   let count = document.getElementById("recent-comment").getAttribute("count")
   if (!count) {
-    count = 10
+    count = 20
   }
 
   //格式化时间

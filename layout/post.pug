@@ -11,7 +11,7 @@ block content
         span= ' | '
         span.category
           for category in page.categories.toArray()
-            a(href=url_for(category.path))= category.name
+            a(href=url_for(category.path),style="margin-right: 5px;")= category.name
       if theme.busuanzi == true
         script(src='https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js', async)
         span#busuanzi_container_page_pv= ' | '
