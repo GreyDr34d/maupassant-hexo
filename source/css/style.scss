@@ -22,32 +22,36 @@ textarea,
 .MJXc-TeX-unknown-R,
 .pure-g [class *="pure-u"] {
     /* Set your content font stack here: */
-    font-family: "PingFangSC-Regular", Helvetica, "Helvetica Neue", "Segoe UI", "Hiragino Sans GB", "Source Han Sans CN", "Microsoft YaHei", "STHeiti", "WenQuanYi Micro Hei", sans-serif !important;
+    font-family: "Ubuntu";
 }
 
 body {
-    background-color: #FFF;
+    background: linear-gradient(to bottom, rgb(242, 136, 61),rgb(225, 159, 16));
     color: #444;
-    font-family: "TIBch", "Classic Grotesque W01", "Helvetica Neue", Arial, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, sans-serif;
+    font-family: "Ubuntu";
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-size: 14px;
 }
 
 .body_container {
-    padding: 0 60px;
-    max-width: 1150px;
+    box-shadow: 0px 0px 50px -4px rgba(28, 1, 1, 0.8);
+    background-color: white;
+    padding: 0 30px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
 .content_container {
     padding-right: 50px;
     padding-top: 20px;
+    padding-left: 30px;
 }
 
 a,
 button.submit {
-    color: #6E7173;
+    color: #ce6809;
+    font-weight: bolder;
     text-decoration: none;
     -webkit-transition: all .1s ease-in;
     -moz-transition: all .1s ease-in;
@@ -73,11 +77,11 @@ div {
 }
 
 #header {
-    padding: 58px 0 0;
     text-align: left;
     border-bottom: 1px solid #ddd;
     position: relative;
     .site-name {
+        padding: 100px 0 0;
         margin-bottom: 40px;
         h1 {
             padding: 0;
@@ -108,7 +112,7 @@ div {
             display: inline-block;
             padding: 3px 20px 3px;
             line-height: 30px;
-            color: #444;
+            color: rgb(206, 104, 9);
             font-size: 13px;
             border: 1px solid transparent;
             &:hover {
@@ -131,13 +135,13 @@ div {
     .widget {
         margin-bottom: 30px;
         .widget-title {
-            color: #6E7173;
+            color: #73726e;
             line-height: 2.7;
             margin-top: 0;
-            font-size: 16px;
+            font-size: 14px;
             border-bottom: 1px solid #ddd;
             display: block;
-            font-weight: normal;
+            font-weight: 700;
         }
         .comments-title {
             color: #6E7173;
@@ -146,13 +150,15 @@ div {
             font-size: 16px;
             border-bottom: 0px solid #ddd;
             display: block;
-            font-weight: normal;
+            font-weight: 700;
         }
         .tagcloud {
             margin-top: 10px;
             a {
+                color: rgb(206, 104, 9);
                 line-height: 1.5;
                 padding: 5px;
+                font-size: 13px;
             }
         }
         ul {
@@ -232,7 +238,7 @@ div {
 .label-title {
     margin-top: 1.1em;
     font-size: 20px;
-    font-weight: normal;
+    font-weight: 700;
     color: #888;
 }
 
@@ -244,7 +250,7 @@ div {
         text-align: left;
         font: bold 25px/1.1 "ff-tisa-web-pro", Cambria, "Times New Roman", Georgia, Times, sans-serif;
         a {
-            color: #555;
+            color: rgb(206, 104, 9);
         }
         .top-post {
             font-weight: 400;
@@ -268,20 +274,20 @@ div {
         display: inline;
         text-indent: .15em;
         &:before {
-            font-family: "FontAwesome";
+            font-family: "Ubuntu";
             content: "\f073";
             padding-right: 0.3em;
         }
         .category {
             &:before {
-                font-family: "FontAwesome";
+                font-family: "Ubuntu";
                 content: "\f07c";
                 padding-right: 0.3em;
             }
         }
         #busuanzi_value_page_pv {
             &:before {
-                font-family: "FontAwesome";
+                font-family: "Ubuntu";
                 content: "\f024";
                 padding-right: 0.3em;
             }
@@ -295,7 +301,7 @@ div {
         display: inline;
         text-indent: .15em;
         &:before {
-            font-family: "FontAwesome";
+            font-family: "Ubuntu";
             content: "\f0e5";
             padding-right: 0.3em;
         }
@@ -311,7 +317,7 @@ div {
         display: inline;
         text-indent: .15em;
         &:before {
-            font-family: "FontAwesome";
+            font-family: "Ubuntu";
             content: "\f0e5";
             padding-right: 0.3em;
         }
@@ -320,9 +326,10 @@ div {
         }
     }
     .post-content {
+        font-size: 13px;
+        font-weight: 500;
         clear: left;
-        font-size: 15px;
-        line-height: 1.77;
+        line-height: 1.6;
         color: #444;
         padding-top: 15px;
         text-align: justify;
@@ -348,10 +355,10 @@ div {
                 margin: 0 5px;
                 padding: 0 5px;
                 background: #f7f8f8;
-                font-family: Menlo, Consolas, monospace !important;
+                font-family: "Ubuntu";
             }
             a {
-                color: #01579f;
+                color: rgb(206, 104, 9);
                 padding-bottom: 2px;
                 word-break: normal;
                 &:hover {
@@ -391,10 +398,10 @@ div {
                 margin: 0 5px;
                 padding: 0px 5px;
                 background: #f7f8f8;
-                font-family: Menlo, Consolas, monospace !important;
+                font-family: "Ubuntu";
             }
             a {
-                color: #01579f;
+                color: rgb(206, 104, 9);
                 padding-bottom: 2px;
                 word-break: normal;
                 &:hover {
@@ -410,7 +417,7 @@ div {
                 display: inline-block;
                 border: 1px solid #808080;
                 border-radius: 999em;
-                color: #aaa;
+                color: rgb(206, 104, 9);
                 &:hover {
                     color: #fff;
                     border: 1px solid #808080;
@@ -424,7 +431,7 @@ div {
                 .tag-text {
                     margin-left: 5px;
                     font-size: 16px;
-                    font-weight: bold;
+                    font-weight: 900;
                 }
             }
         }
@@ -432,6 +439,7 @@ div {
     .tags {
         a {
             margin-right: .5em;
+            color: rgb(206, 104, 9);
             i {
                 padding-right: 0.3em;
             }
@@ -465,7 +473,7 @@ div {
         &.prev {
             float: left;
             &:before {
-                font-family: "FontAwesome";
+                font-family: "Ubuntu";
                 content: "\f100";
                 padding-right: 0.3em;
             }
@@ -473,7 +481,7 @@ div {
         &.next {
             float: right;
             &:after {
-                font-family: "FontAwesome";
+                font-family: "Ubuntu";
                 content: "\f101";
                 padding-left: 0.3em;
             }
@@ -504,7 +512,7 @@ div {
 /* for archive page starts*/
 
 .post-archive {
-    font-size: 15px;
+    font-size: 13px;
     line-height: 2;
     padding-bottom: .8em;
     h2 {
@@ -545,6 +553,7 @@ screen and (max-width: 48em) {
             position: relative;
             text-align: center;
             a {
+                color: rgb(206, 104, 9);
                 padding: 0 15px;
                 line-height: 27px;
                 height: 27px;
@@ -581,11 +590,11 @@ blockquote::before,
 .stressed-quote::before {
     content: "\201C";
     display: block;
-    font-family: times;
+    font-family: "Ubuntu";
     font-style: normal;
     font-size: 48px;
     color: #444;
-    font-weight: bold;
+    font-weight: 900;
     line-height: 30px;
     margin-left: -50px;
     position: absolute;
@@ -594,7 +603,7 @@ blockquote::before,
 strong,
 b,
 em {
-    font-weight: bold;
+    font-weight: 900;
 }
 
 pre {
@@ -753,7 +762,7 @@ screen and (min-width: 48em) {
 }
 
 #process span.number {
-    font-family: 'Georgia', serif, Helvetica, "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
+    font-family: "Ubuntu";
     font-style: italic;
     font-size: 20px;
     line-height: 0;
@@ -784,7 +793,7 @@ screen and (min-width: 48em) {
 }
 
 .timeline-label p {
-    font-family: Helvetica, "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
+    font-family: "Ubuntu";
     margin-bottom: 3px
 }
 
@@ -818,8 +827,8 @@ screen and (min-width: 48em) {
 }
 
 #process .timeline-centered .timeline-entry .timeline-entry-inner .timeline-time>span:first-child {
-    font-size: 15px;
-    font-weight: bold;
+    font-size: 13px;
+    font-weight: 900;
 }
 
 #process .timeline-centered .timeline-entry .timeline-entry-inner .timeline-time>span:last-child {
@@ -841,7 +850,7 @@ screen and (min-width: 48em) {
     text-align: center;
     border: 4px solid #F5F5F6;
     line-height: 40px;
-    font-size: 15px;
+    font-size: 13px;
     float: left;
     position: absolute;
     top: 50%;
@@ -895,7 +904,7 @@ screen and (min-width: 48em) {
 #process .present,
 #process .born {
     font-size: 14px;
-    font-family: 'Georgia', serif, Helvetica, "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
+    font-family: "Ubuntu";
     font-style: italic;
     color: #333;
     padding: 10px;
@@ -991,14 +1000,14 @@ screen and (min-width: 48em) {
 
 .readmore a {
     font-size: 14px;
-    color: #444;
+    color: rgb(206, 104, 9);
     margin: -10px 0;
     padding: 5px 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
     float: right;
     &:after {
-        font-family: "FontAwesome";
+        font-family: "Ubuntu";
         content: "\f101";
         padding-left: 0.3em;
     }
@@ -1015,7 +1024,7 @@ figure.highlight,
 .codeblock {
     background: #f7f8f8;
     margin: 10px 0;
-    line-height: 1.1em;
+    line-height: 1.3em;
     color: #333;
     padding-top: 15px;
     overflow: hidden;
@@ -1029,7 +1038,7 @@ figure.highlight,
     .code,
     .tag {
         background-color: inherit;
-        font-family: Menlo, Consolas, monospace;
+        font-family: "Ubuntu";
         border: none;
         padding: 0;
         margin: 0;
@@ -1056,7 +1065,7 @@ figure.highlight,
         color: #999999;
         a {
             float: right;
-            color: #01579f;
+            color: rgb(206, 104, 9);
         }
     }
     // Gutter which contains line numbers
@@ -1087,7 +1096,7 @@ figure.highlight,
 .gist {
     .line,
     .line-number {
-        font-family: Menlo, Consolas, monospace;
+        font-family: "Ubuntu";
         font-size: 1em;
         margin: 0 0 5px 0;
         user-select: none;
@@ -1240,7 +1249,7 @@ figure.highlight,
         .chunk,
         .meta {
             color: #795da3;
-            font-weight: bold;
+            font-weight: 900;
         }
         .addition {
             color: #55a532;
@@ -1647,14 +1656,14 @@ figure.highlight,
     a {
         display: inline-block;
         line-height: 25px;
-        font-size: 15px;
-        color: #555;
+        font-size: 13px;
+        color: rgb(206, 104, 9);
         border-bottom: none;
         float: left;
         &.pre {
             float: left;
             &:before {
-                font-family: "FontAwesome";
+                font-family: "Ubuntu";
                 content: "\f0d9";
                 padding-right: 0.3em;
             }
@@ -1662,7 +1671,7 @@ figure.highlight,
         &.next {
             float: right;
             &:after {
-                font-family: "FontAwesome";
+                font-family: "Ubuntu";
                 content: "\f0da";
                 padding-left: 0.3em;
             }
@@ -1682,7 +1691,7 @@ figure.highlight,
     border-radius: 7px;
     margin: 1.1em 0 0 2em;
     padding: 0.7em 0.7em 0 0.7em;
-    max-width: 40%;
+    width: 100%;
 }
 
 .toc-title {
@@ -1691,7 +1700,8 @@ figure.highlight,
 
 #toc {
     line-height: 1em;
-    float: right;
+    float: left;
+    font-size: 9px;
     .toc {
         padding: 0;
         margin: 0.5em;
@@ -1731,7 +1741,7 @@ table {
     border-spacing: 0;
     text-align: left;
     th {
-        font-weight: bold;
+        font-weight: 900;
         padding: 5px 10px;
         border-bottom: 2px solid #909ba2;
     }
@@ -1753,7 +1763,7 @@ table {
     float: right;
     margin-left: 20px;
     &:before {
-        font-family: "FontAwesome";
+        font-family: "Ubuntu";
         content: "\f064";
         padding-right: 6px;
     }
@@ -1802,7 +1812,7 @@ table {
     text-shadow: 0 1px #fff;
     &:before {
         font-size: 20px;
-        font-family: "FontAwesome";
+        font-family: "Ubuntu";
         width: 20px;
         height: 20px;
         position: absolute;
@@ -1874,8 +1884,8 @@ ul.search-result-list {
 }
 
 a.search-result-title {
-    font-weight: bold;
-    font-size: 15px;
+    font-weight: 900;
+    font-size: 13px;
     color: #555;
 }
 
@@ -1885,7 +1895,7 @@ p.search-result {
 }
 
 em.search-keyword {
-    font-weight: bold;
+    font-weight: 900;
     font-style: normal;
     color: #01579f;
 }
@@ -1899,7 +1909,7 @@ em.search-keyword {
     min-width: 50px;
     padding: 0 14px;
     display: inline-block;
-    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-family: "Ubuntu";
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 0;
@@ -1932,7 +1942,7 @@ em.search-keyword {
     background-color: #ABBAC3;
     margin-bottom: 5px;
     a {
-      color: #fff;
+      color: rgb(206, 104, 9);
     }
     img {
       /*height: "calc(%s * 1.25)" % $fontsize-footnote*/
@@ -2115,7 +2125,7 @@ html[data-dark='true'] {
                 }
                 .link-desc {
                     font-size: 0.8rem;
-                    font-weight: normal;
+                    font-weight: 700;
                     margin-top: 0.5rem;
                     width: 10.5rem;
                     white-space: nowrap;
